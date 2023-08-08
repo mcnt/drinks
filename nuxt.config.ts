@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   //
   devtools: { enabled: process.env.NODE_ENV === "development" },
@@ -6,4 +5,8 @@ export default defineNuxtConfig({
   modules: ["@pinia/nuxt", "@nuxtjs/tailwindcss"],
   //
   css: ["~/assets/scss/vine.scss"],
+  //
+  experimental: {
+    renderJsonPayloads: false,
+  },
 });

@@ -1,5 +1,7 @@
 <template>
   <div id="logo">
-    <img src="/images/logo.png" alt="Vine Maria" />
+    <nuxt-link to="/">
+      <img src="/images/logo.png" alt="MCNT Drinks" />
+    </nuxt-link>
   </div>
 </template>
