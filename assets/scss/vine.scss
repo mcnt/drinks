@@ -1,0 +1,18 @@
+body {
+  @apply bg-gray-200;
+}
+
+.layout {
+  @apply flex justify-center;
+  .content {
+    @apply lg:w-4/5 sm:w-full;
+  }
+}
+
+header {
+  @apply grid grid-cols-12 gap-4;
+}
+
+#logo {
+  @apply bg-white text-center p-6 drop-shadow-lg rounded-b-lg;
+}

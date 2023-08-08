@@ -12,7 +12,8 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.1",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "sass": "^1.64.2"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",
